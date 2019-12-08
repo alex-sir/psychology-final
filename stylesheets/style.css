@@ -3,6 +3,14 @@ body {
     font-size: 8px;
 }
 
+h1 {
+    font-weight: bold;
+}
+
+p {
+    display: inline-block;
+}
+
 .main {
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -12,16 +20,16 @@ body {
 }
 
 #cumulative {
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: thin solid black;
+    border-bottom: thin solid black;
 }
 
 #chapter-11 {
-    border-bottom: 1px solid black;
+    border-bottom: thin solid black;
 }
 
 #chapter-12 {
-    border-right: 1px solid black;
+    border-right: thin solid black;
 }
 
 #chapter-15 {}
