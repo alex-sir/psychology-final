@@ -1,6 +1,7 @@
 body {
     box-sizing: border-box;
     font-size: 7.4px;
+    overflow: hidden;
 }
 
 h1 {
@@ -36,4 +37,8 @@ p {
     border-right: thin solid black;
 }
 
-#chapter-15 {}
+#extra-credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
