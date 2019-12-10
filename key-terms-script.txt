@@ -1,0 +1,7 @@
+// Run this in the console on a "key terms" page of the online HTML version of the book
+// Book: https://cnx.org/contents/Sr8Ev5Og@12.2:F_mjYFfh@24/Preface
+const terms = document.querySelectorAll('.os-glossary-container dl>dt');
+const definitions = document.querySelectorAll('.os-glossary-container dl>dd');
+for (let i = 0; i < terms.length; i++) {
+	console.log(`<li><p class="term">${terms[i].textContent}</p><p>${definitions[i].textContent}</p></li>`);
+}
