@@ -12,6 +12,11 @@ p {
     display: inline-block;
 }
 
+ol {
+    list-style: decimal;
+    margin-left: 8px;
+}
+
 .term {
     text-decoration: underline;
 }
