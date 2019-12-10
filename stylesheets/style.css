@@ -17,24 +17,40 @@ p {
 }
 
 .main {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(2, 50%);
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
     width: 100vw;
     height: 100vh;
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
 #cumulative {
+    width: 50vw;
+    height: 50vh;
     border-right: thin solid black;
     border-bottom: thin solid black;
 }
 
 #chapter-11 {
+    width: 50vw;
+    height: 50vh;
     border-bottom: thin solid black;
 }
 
 #chapter-12 {
+    width: 50vw;
+    height: 50vh;
     border-right: thin solid black;
+}
+
+#chapter-15 {
+    width: 50vw;
+    height: 50vh;
 }
 
 #extra-credit {
