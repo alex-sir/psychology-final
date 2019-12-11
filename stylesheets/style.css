@@ -1,11 +1,12 @@
 body {
     box-sizing: border-box;
-    font-size: 7.4px;
+    font-size: 6.6px;
     overflow: hidden;
 }
 
 h1 {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 p {
@@ -18,7 +19,7 @@ ol {
 }
 
 .term {
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 .main {
@@ -34,14 +35,18 @@ ol {
     flex-direction: row;
 }
 
+#cumulative,
+#chapter-11,
+#chapter-15 {
+    padding: 20px;
+}
+
 #cumulative {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50vw;
+    width: 44vw;
     height: 50vh;
-    border-right: thin solid black;
-    border-bottom: thin solid black;
 }
 
 #chapter-11 {
@@ -50,16 +55,6 @@ ol {
     right: 0;
     width: 50vw;
     height: 38.5vh;
-    border-bottom: thin solid black;
-}
-
-#chapter-12 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 50vw;
-    height: 50vh;
-    border-right: thin solid black;
 }
 
 #chapter-15 {
@@ -67,10 +62,11 @@ ol {
     bottom: 0;
     right: 0;
     width: 50vw;
-    height: 61.5vh;
+    height: 74.8vh;
 }
 
 #extra-credit {
+    margin: 0 150px 150px 0;
     position: absolute;
     bottom: 0;
     right: 0;

@@ -3,5 +3,7 @@
 const terms = document.querySelectorAll('.os-glossary-container dl>dt');
 const definitions = document.querySelectorAll('.os-glossary-container dl>dd');
 for (let i = 0; i < terms.length; i++) {
-	console.log(`<li><p class="term">${terms[i].textContent}</p><p>${definitions[i].textContent}</p></li>`);
+	let term = terms[i].textContent;
+	let definition = definitions[i].textContent;
+	console.log(`<li><p class="term">${(term.charAt(0).toUpperCase()) + term.substring(1)}:</p><p>${(definition.charAt(0).toUpperCase()) + definition.substring(1)}</p></li>`);
 }
